@@ -1,7 +1,7 @@
 # Cursor AI Project Rules
 
 **Version**: 1.0  
-**Last Updated**: November 6, 2025
+**Last Updated**: December 11, 2025
 
 This directory contains modular rule files for Cursor AI, following the recommended Project Rules structure.
 

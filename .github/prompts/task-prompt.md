@@ -4,12 +4,14 @@
 
 You are working with **AI-102: Azure AI Engineer Associate**, a comprehensive study and practice repository for preparing for the Microsoft AI-102 certification exam. The repository focuses on Azure AI services and exam objectives:
 
-- **Plan and manage Azure AI solutions**
+- **Plan and manage an Azure AI solution**
+- **Implement generative AI solutions**
+- **Implement an agentic solution**
 - **Implement computer vision solutions**
 - **Implement natural language processing solutions**
-- **Implement knowledge mining / cognitive search**
-- **Implement conversational AI / Azure OpenAI–based solutions**
-- **Apply Responsible AI and security best practices**
+- **Implement knowledge mining and information extraction solutions**
+
+> **Note**: Responsible AI and security best practices are cross-cutting concerns that apply to all exam domains.
 
 Target Folders for Verification:
 
