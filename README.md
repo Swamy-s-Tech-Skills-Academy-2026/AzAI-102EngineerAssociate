@@ -13,27 +13,27 @@ As you build out this repo, keep exam objectives in mind and group content under
 ## Suggested Usage
 
 1. **Set up your environment**  
-	- Install the latest **Azure CLI** and sign in.  
-	- Install the **Azure AI Studio** and **Azure Cosmos DB** extensions in VS Code (optional but recommended).  
-	- Ensure you have access to an Azure subscription where you can create and clean up AI resources.
+ - Install the latest **Azure CLI** and sign in.  
+ - Install the **Azure AI Studio** and **Azure Cosmos DB** extensions in VS Code (optional but recommended).  
+ - Ensure you have access to an Azure subscription where you can create and clean up AI resources.
 
 2. **Organize by exam domains**  
-	For each AI-102 objective, create a short folder/note and at least one practical example:
-	- Plan and manage Azure AI solutions.
-	- Implement computer vision solutions.
-	- Implement natural language processing solutions.
-	- Implement knowledge mining / cognitive search.
-	- Implement conversational AI / Azure OpenAI–based solutions.
-	- Apply Responsible AI and security best practices.
+ For each AI-102 objective, create a short folder/note and at least one practical example:
+ - Plan and manage Azure AI solutions.
+ - Implement computer vision solutions.
+ - Implement natural language processing solutions.
+ - Implement knowledge mining / cognitive search.
+ - Implement conversational AI / Azure OpenAI–based solutions.
+ - Apply Responsible AI and security best practices.
 
 3. **Capture labs and experiments**  
-	- Use `docs/` to store **step-by-step labs**, screenshots, and architecture diagrams.  
-	- Use `src/` for **repeatable code**: scripts, notebooks, and small services.  
-	- Prefer **Azure Cosmos DB** for sample app data where you need scalable, low-latency storage for AI/chat context or user profiles.
+ - Use `docs/` to store **step-by-step labs**, screenshots, and architecture diagrams.  
+ - Use `src/` for **repeatable code**: scripts, notebooks, and small services.  
+ - Prefer **Azure Cosmos DB** for sample app data where you need scalable, low-latency storage for AI/chat context or user profiles.
 
 4. **Practice deployments**  
-	- Try provisioning and wiring up Azure AI services end to end (e.g., Cognitive Search + Azure OpenAI + Cosmos DB).  
-	- Document what you created, configuration steps, and cleanup instructions in `docs/`.
+ - Try provisioning and wiring up Azure AI services end to end (e.g., Cognitive Search + Azure OpenAI + Cosmos DB).  
+ - Document what you created, configuration steps, and cleanup instructions in `docs/`.
 
 ## Getting Started Quickly
 
