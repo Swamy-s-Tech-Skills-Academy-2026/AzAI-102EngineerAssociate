@@ -1075,6 +1075,6 @@ ASCII Fallback:
 ## For More Information
 
 - **Repository**: <https://github.com/Swamy-s-Tech-Skills-Academy-2026/AzAI-102EngineerAssociate>
-- **AI-102 Exam Guide**: Official Microsoft Learn documentation
+- **AI-102 Exam Guide**: [Official Microsoft AI-102 certification page](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
 - **Structure Reference**: `README.md`
 - **PowerShell Scripts**: `tools/psscripts/`
