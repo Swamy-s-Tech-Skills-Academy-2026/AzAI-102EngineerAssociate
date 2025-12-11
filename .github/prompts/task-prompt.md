@@ -131,10 +131,10 @@ Check for presence of:
 
 ### O. **Cross-Domain Integration**
 
-- Check proper references between domains
-- Verify content connections across levels
-- Validate integration between reference library and LeadArchitect tracks
-- Ensure consistency in terminology and concepts
+- Check proper references between AI-102 exam domains
+- Verify content connections across exam domains
+- Validate integration between study materials and code examples
+- Ensure consistency in terminology and concepts across all AI-102 domains
 
 ---
 
