@@ -206,6 +206,7 @@ AzAI-102EngineerAssociate/
 **Target Audience**: Developers and engineers preparing for the Microsoft AI-102: Azure AI Engineer Associate certification
 
 **Learning Framework**: Organized by AI-102 exam domains:
+
 - Plan and manage Azure AI solutions
 - Implement computer vision solutions
 - Implement natural language processing solutions
@@ -239,6 +240,7 @@ This repository includes practical code examples and labs for Azure AI services:
 **Code Examples Guidelines:**
 
 When including code examples:
+
 - ✅ Keep examples small and focused on a single concept
 - ✅ Include setup instructions and prerequisites
 - ✅ Add comments explaining Azure AI service usage
@@ -309,6 +311,7 @@ When including code examples:
 **MANDATORY APPROACH**: When content exceeds 150 lines, **ALWAYS SPLIT** into multiple parts. **NEVER TRIM** or condense content.
 
 **Why Splitting is Required:**
+
 - ✅ **Preserves ALL educational content** - No loss of examples, explanations, or concepts
 - ✅ **Maintains learning value** - Each part remains complete and actionable
 - ✅ **Better learning experience** - Learners get comprehensive coverage across parts
@@ -357,6 +360,7 @@ related_topics:
 ✅ Use hyphens for multi-word names: `01_Software-Design-Principles/`
 
 **CRITICAL**: This rule applies to **ALL files** in the repository:
+
 - ✅ Study content files (`docs/sessions/`, `src/`)
 - ✅ Documentation files (`docs/`)
 - ✅ Any numbered files anywhere in the repository
@@ -387,6 +391,7 @@ related_topics:
 - UML (06) comes last as it visualizes all previous concepts
 
 **When Creating New Content**:
+
 - ✅ Verify prerequisites are numbered BEFORE the new content
 - ✅ Check that "enables" relationships point to content numbered AFTER
 - ✅ Ensure learning dependencies match file numbering order
@@ -453,7 +458,8 @@ related_topics:
 #### Validation Checklist
 
 Before committing:
-- [ ] Run `.\tools\psscripts\Validate-FileReferences.ps1`
+
+- [ ] Run `\.\tools\psscripts\Validate-FileReferences.ps1`
 - [ ] All references point to existing files (or are clearly planned)
 - [ ] Navigation links work in markdown preview
 - [ ] No broken references remain
@@ -501,6 +507,7 @@ Before committing:
 **Review EACH AND EVERY file individually** - no file should be skipped:
 
 ##### 1. YAML Frontmatter Review
+
 - [ ] YAML frontmatter present (starts with `---`)
 - [ ] All 5 required metadata fields present:
   - [ ] `learning_level` (Beginner/Intermediate/Advanced/Reference)
@@ -513,6 +520,7 @@ Before committing:
 - [ ] `enables:` key present in `related_topics` section
 
 ##### 2. Content Structure Review
+
 - [ ] File length ≤ 150 lines (excluding YAML frontmatter)
 - [ ] **If content exceeds 150 lines**: File has been SPLIT into multiple parts (not trimmed)
 - [ ] All educational content preserved across split parts
@@ -521,6 +529,7 @@ Before committing:
 - [ ] Follows 25-minute learning segment principle
 
 ##### 3. File Naming Review
+
 - [ ] Uses zero-padded numeric prefix (`01_`, `02_`, etc.)
 - [ ] **CRITICAL**: Never uses `00_` prefix - **NO EXCEPTIONS** (applies to ALL files including `docs/`)
 - [ ] Split files use correct naming: `Part1-A.md`, `Part1-B.md` (not `Part1A.md`)
@@ -528,6 +537,7 @@ Before committing:
 - [ ] Rule applies to educational content AND documentation files
 
 ##### 4. File References Review
+
 - [ ] All `enables:` references point to existing files
 - [ ] All `prerequisites:` references point to existing files
 - [ ] All `builds_upon:` references point to existing files
@@ -535,6 +545,7 @@ Before committing:
 - [ ] No broken references remain
 
 ##### 5. Content Quality Review
+
 - [ ] Has code examples (if applicable)
 - [ ] Has diagrams (Mermaid or ASCII)
 - [ ] Content is transformative (not copied)
@@ -543,6 +554,7 @@ Before committing:
 - [ ] Progressive scaffolding present (Foundations → Practice → Pitfalls → Next Steps)
 
 ##### 6. Zero-Copy Policy Review
+
 - [ ] No verbatim text from sources
 - [ ] No mirrored outlines or section order
 - [ ] Original examples and explanations
@@ -550,6 +562,7 @@ Before committing:
 - [ ] Content adds educational value beyond source
 
 ##### 7. Learning Progression Review
+
 - [ ] File numbering reflects logical learning dependencies
 - [ ] Prerequisites come before dependent content
 - [ ] `enables:` relationships point to content numbered after
@@ -560,13 +573,14 @@ Before committing:
 **When performing comprehensive review**:
 
 1. **Systematic File Scanning**
+
    ```powershell
    # Get all files to review
    Get-ChildItem "docs\sessions" -Recurse -Filter "*.md" | 
-       Where-Object { $_.Name -ne "README.md" }
-   ```
+         Where-Object { $_.Name -ne "README.md" }
+      ```
 
-2. **Individual File Analysis**
+   2. **Individual File Analysis**
    - Open each file
    - Check YAML frontmatter structure
    - Verify all metadata fields
@@ -576,6 +590,7 @@ Before committing:
    - Review content quality indicators
 
 3. **Reference Validation**
+
    ```powershell
    # Run reference validation
    .\tools\psscripts\Validate-FileReferences.ps1
@@ -669,6 +684,7 @@ All content must demonstrate:
 4. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
 
 **Important Notes**:
+
 - ⚠️ **Files in `source-materials/` are NOT required to be compliant** - this is a staging area for raw source content
 - ✅ **Review rules apply DURING transformation** - ensure transformation process follows all Educational Content Rules
 - ✅ **When user requests migration**: Review ALL files in `source-materials/`, identify unique content, and migrate to appropriate location
@@ -717,6 +733,7 @@ All content must demonstrate:
    - Save migration verification report to `docs/review-reports/` with date-based filename (format: `DDMonYYYY.md`)
 
 **Compliance Requirements**:
+
 - ❌ `source-materials/` files: **NO compliance required** (staging area - raw source content)
 - ✅ **Transformation process**: **MUST follow review rules** (apply checklist during transformation)
 - ✅ `docs/sessions/` files: Should follow study material best practices
