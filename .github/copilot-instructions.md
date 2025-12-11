@@ -207,12 +207,12 @@ AzAI-102EngineerAssociate/
 
 **Learning Framework**: Organized by AI-102 exam domains:
 
-- Plan and manage Azure AI solutions
+- Plan and manage an Azure AI solution
+- Implement generative AI solutions
+- Implement an agentic solution
 - Implement computer vision solutions
 - Implement natural language processing solutions
-- Implement knowledge mining / cognitive search
-- Implement conversational AI / Azure OpenAI–based solutions
-- Apply Responsible AI and security best practices
+- Implement knowledge mining and information extraction solutions
 
 ---
 
@@ -288,16 +288,18 @@ When including code examples:
 **Rationale**: Interview prep content should be applicable to any organization, not tied to specific companies. This makes the content more valuable and reusable.
 
 **Examples of Generic Framing**:
+
 - ❌ "Amazon Leadership Principles" → ✅ "Leadership Principles (ownership, customer focus, bias for action)"
 - ❌ "Microsoft's Clarity–Energy–Success model" → ✅ "Clarity–Energy–Success model (bringing clarity, energizing teams, driving success)"
 - ❌ "For Amazon, AWS roles" → ✅ "For high-pressure TPM roles, customer-obsessed organizations"
 - ❌ "For Google, Meta, Stripe, Uber" → ✅ "For deep-tech companies, innovation-focused organizations"
 
 **When Creating Interview Prep Content**:
+
 1. Focus on universal principles and practices
-2. Use generic organizational types (product companies, startups, enterprise organizations)
-3. Reference frameworks by their concepts, not company names
-4. Make content applicable to any similar organization
+1. Use generic organizational types (product companies, startups, enterprise organizations)
+1. Reference frameworks by their concepts, not company names
+1. Make content applicable to any similar organization
 
 ### ⏱️ 25-Minute Learning Segments
 
@@ -318,17 +320,19 @@ When including code examples:
 - ✅ **Follows 25-minute principle** - Each part fits within focused learning session
 
 **Why Trimming is Prohibited:**
+
 - ❌ **Loses educational content** - Examples, explanations, or concepts may be removed
 - ❌ **Reduces learning value** - Condensed content may miss important details
 - ❌ **Violates zero-copy policy** - If source had comprehensive content, we should preserve it
 - ❌ **Poor learning experience** - Learners miss important information
 
 **Splitting Process:**
+
 1. **Identify logical breakpoints** - Split at natural topic boundaries
-2. **Preserve all content** - Move content to appropriate part, don't delete
-3. **Maintain completeness** - Each part should be self-contained and complete
-4. **Use proper naming** - Follow naming convention: `Part1-A.md`, `Part1-B.md`, etc.
-5. **Update references** - Update all file references after splitting
+1. **Preserve all content** - Move content to appropriate part, don't delete
+1. **Maintain completeness** - Each part should be self-contained and complete
+1. **Use proper naming** - Follow naming convention: `Part1-A.md`, `Part1-B.md`, etc.
+1. **Update references** - Update all file references after splitting
 
 ### 📋 Required Content Structure
 
@@ -367,6 +371,7 @@ related_topics:
 - ❌ **NO EXCEPTIONS** - `00_` is NEVER allowed, even for meta/documentation files
 
 **Why This Rule Exists**:
+
 - Maintains consistent numbering across the repository
 - Prevents confusion about file ordering
 - Ensures predictable file organization
@@ -386,6 +391,7 @@ related_topics:
 6. **06**: UML Class Relationships - Visualizing relationships
 
 **Why This Order Matters**:
+
 - Inheritance (04) must come BEFORE Composition (05) because Composition discusses "favor composition over inheritance" - learners need to understand inheritance first
 - Inheritance is a fundamental OOP pillar; Composition is an alternative/comparison
 - UML (06) comes last as it visualizes all previous concepts
@@ -402,6 +408,7 @@ related_topics:
 **CRITICAL**: When files are split into multiple parts, use simplified letter suffixes.
 
 **Pattern**:
+
 - `Topic-Part1-Part1.md` → `Topic-Part1-A.md`
 - `Topic-Part1-Part2.md` → `Topic-Part1-B.md`
 - `Topic-Part2-Part1.md` → `Topic-Part2-A.md`
@@ -410,18 +417,21 @@ related_topics:
 - `Topic-Part1-Part2-Part2.md` → `Topic-Part1-B-B.md`
 
 **Rules**:
+
 1. ✅ **Keep first Part number** - First `Part1`, `Part2`, etc. stays as-is
-2. ✅ **Convert subsequent Part numbers to letters** - `Part1` → `A`, `Part2` → `B`, etc.
-3. ✅ **Use uppercase letters** - A, B, C, D, etc. (not a, b, c)
-4. ✅ **Maintain order** - Letters reflect the original Part number sequence
+1. ✅ **Convert subsequent Part numbers to letters** - `Part1` → `A`, `Part2` → `B`, etc.
+1. ✅ **Use uppercase letters** - A, B, C, D, etc. (not a, b, c)
+1. ✅ **Maintain order** - Letters reflect the original Part number sequence
 
 **Examples**:
+
 - ✅ `01_OOP-Introduction-Part1-A.md` (was `Part1-Part1`)
 - ✅ `01_OOP-Introduction-Part1-B.md` (was `Part1-Part2`)
 - ✅ `02_Classes-and-Objects-Part2-A.md` (was `Part2-Part1`)
 - ✅ `03_Encapsulation-Part1-B-A.md` (was `Part1-Part2-Part1`)
 
 **Benefits**:
+
 - Cleaner, more readable file names
 - Easier to understand part relationships
 - Consistent naming pattern
@@ -483,6 +493,7 @@ Before committing:
 - ❌ **NEVER**: Review only files that "look problematic" - review ALL files
 
 **Scope of Review**:
+
 - If reviewing `docs/sessions/` folder: Review ALL files in `docs/sessions/`
 - If reviewing `src/` folder: Review ALL code samples in `src/`
 - If reviewing a specific subfolder: Review ALL files in that subfolder
@@ -580,7 +591,7 @@ Before committing:
          Where-Object { $_.Name -ne "README.md" }
       ```
 
-   2. **Individual File Analysis**
+   1. **Individual File Analysis**
    - Open each file
    - Check YAML frontmatter structure
    - Verify all metadata fields
@@ -589,21 +600,21 @@ Before committing:
    - Validate all file references
    - Review content quality indicators
 
-3. **Reference Validation**
+1. **Reference Validation**
 
    ```powershell
    # Run reference validation
    .\tools\psscripts\Validate-FileReferences.ps1
    ```
 
-4. **Content Quality Analysis**
+1. **Content Quality Analysis**
    - Check for code examples
    - Check for diagrams (Mermaid/ASCII)
    - Check for headings
    - Check for suspicious patterns
    - Verify zero-copy compliance
 
-5. **Documentation**
+1. **Documentation**
    - Document all findings
    - Create issue list with file paths
    - Prioritize issues (critical vs. warnings)
@@ -1028,7 +1039,7 @@ ASCII Fallback:
 
 ## 📞 Support & Escalation
 
-**Questions about content placement?** → Check `02_RepositoryStructure.md`
+**Questions about content placement?** → Check `README.md`
 
 **Content too long?** → Create multi-part structure (01A, 01B, 01C)
 
@@ -1040,35 +1051,24 @@ ASCII Fallback:
 
 ---
 
-## 🎯 Quick Reference: Learning Stages
+## 🎯 Quick Reference: AI-102 Exam Domains
 
-### 9-Stage Unified Learning Structure
+### 6 Exam Domains
 
-#### Stages 1-4: Core Architecture Path (Foundation)
-
-1. Foundation Mastery - Programming fundamentals & design principles
-2. Development Patterns & Practices - SOLID, design patterns, TDD
-3. Programming Language Mastery - Multi-language expertise
-4. Cloud Platforms & Infrastructure - Azure, AWS, GCP, Kubernetes
-
-#### Stages 5-6: Core + Lead Architect Integration (Transition)
-
-1. DevOps, CI/CD & Observability - Pipelines, monitoring, automation
-2. Enterprise Architecture & System Design - Scalability, resilience, patterns
-
-#### Stages 7-9: Lead Architect Path (Leadership)
-
-1. AI/ML & Intelligent Systems - LLM integration, agents, responsible AI
-2. Security, Governance & Compliance - Security architecture, regulatory
-3. Leadership, Strategy & Innovation - Technology strategy, transformation
+1. **Plan and manage an Azure AI solution** - Foundation and planning
+2. **Implement generative AI solutions** - Azure OpenAI integration
+3. **Implement an agentic solution** - AI agents and workflows
+4. **Implement computer vision solutions** - Image and video processing
+5. **Implement natural language processing solutions** - Text analytics and language understanding
+6. **Implement knowledge mining and information extraction solutions** - Cognitive Search and data extraction
 
 ---
 
 ## 📚 Document Information
 
-**Version**: 3.2  
-**Last Updated**: November 10, 2025  
-**Maintained By**: ArchitectJourney Learning System  
+**Version**: 1.0  
+**Last Updated**: December 11, 2025  
+**Maintained By**: AI-102 Study Repository  
 **Review Cycle**: After every structural change (immediate) + quarterly review  
 **Audience**: GitHub Copilot agents, content creators, maintainers
 

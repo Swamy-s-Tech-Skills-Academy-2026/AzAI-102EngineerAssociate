@@ -57,7 +57,7 @@ When including code examples in study materials:
 
 ## 📁 Repository Structure
 
-### Current Structure (As of November 24, 2025)
+### Current Structure (As of December 11, 2025)
 
 ```text
 AzAI-102EngineerAssociate/
@@ -102,11 +102,12 @@ AzAI-102EngineerAssociate/
 │   └── images/                            # Diagrams and screenshots
 ├── src/                                   # Code samples and labs
 │   └── [organized by AI-102 exam domains]  # Examples for each domain
-│       ├── computer-vision/               # Computer vision solutions
-│       ├── natural-language/              # NLP solutions
-│       ├── knowledge-mining/              # Cognitive Search
-│       ├── conversational-ai/             # Azure OpenAI solutions
-│       └── responsible-ai/                 # Responsible AI practices
+│       ├── plan-manage/                   # Plan and manage Azure AI solutions
+│       ├── generative-ai/                   # Implement generative AI solutions
+│       ├── agentic-solutions/              # Implement agentic solutions
+│       ├── computer-vision/                # Implement computer vision solutions
+│       ├── natural-language/               # Implement NLP solutions
+│       └── knowledge-mining/               # Knowledge mining and information extraction
 └── tools/                                 # Automation and utilities
     └── psscripts/                         # PowerShell scripts
         ├── docs-links.ps1
