@@ -344,7 +344,7 @@ Behavioral expectations:
 
 ## Deliverables
 
-1. Complete JSON report following ArchitectJourney output requirements
+1. Complete JSON report following AI-102 output requirements
 2. Compliance scoring and educational quality assessment
 3. Learning path analysis and gap identification
 4. Cross-reference validation results

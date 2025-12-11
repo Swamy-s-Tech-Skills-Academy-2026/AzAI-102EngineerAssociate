@@ -884,7 +884,7 @@ All content must demonstrate:
 
 **Before ANY content creation or modification**:
 
-### Content Quality (ArchitectJourney Educational Standards)
+### Content Quality (AI-102 Study Material Standards)
 
 - [ ] **Zero-Copy Policy Verified**: No verbatim text from sources; completely transformed
 - [ ] **Transformative Workflow Applied**: Fresh outline, new examples, original explanations

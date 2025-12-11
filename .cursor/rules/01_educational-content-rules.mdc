@@ -220,10 +220,11 @@ All content must demonstrate:
 
 **When Creating Code Examples:**
 
-1. **Keep it minimal**: Show only the essential code needed to illustrate the concept
-2. **Add comments**: Explain what the code demonstrates
-3. **Link to full code**: Reference the separate code repository where full implementation exists
-4. **Focus on learning**: Code should teach, not provide complete solutions
+1. **Keep it focused**: Show code that demonstrates Azure AI service usage for the specific concept
+2. **Add comments**: Explain what the code demonstrates and how it relates to AI-102 exam objectives
+3. **Make it runnable**: Include complete, runnable examples that can be tested with Azure AI services
+4. **Include setup**: Provide setup instructions, prerequisites, and configuration details
+5. **Focus on learning**: Code should teach Azure AI concepts and best practices relevant to the exam
 
 **Example Structure:**
 
