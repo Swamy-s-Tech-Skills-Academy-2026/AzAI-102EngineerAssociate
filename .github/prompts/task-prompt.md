@@ -1,26 +1,29 @@
-# ArchitectJourney Repository Verification and Content Enhancement
+# AI-102: Azure AI Engineer Associate Repository Verification and Content Enhancement
 
 ## Context
 
-You are working with **ArchitectJourney**, a comprehensive learning and reference repository for aspiring software architects. The repository combines development principles, AI/ML, DevOps, leadership frameworks, and strategic insights across:
+You are working with **AI-102: Azure AI Engineer Associate**, a comprehensive study and practice repository for preparing for the Microsoft AI-102 certification exam. The repository focuses on Azure AI services and exam objectives:
 
-- **9 Progressive Levels** (Foundation Mastery → Leadership, Strategy & Innovation)
-- **9-Phase LeadArchitect Program** (Reboot → Leadership Impact)
-- **13 Reference Library Domains** (Development Fundamentals, Programming Languages, AI/ML, Data Science, Cloud Platforms, DevOps, Security & Governance, Enterprise Architecture, Product Delivery, Leadership & Strategy, Networking & Infrastructure, Emerging Technologies, Professional Growth)
+- **Plan and manage Azure AI solutions**
+- **Implement computer vision solutions**
+- **Implement natural language processing solutions**
+- **Implement knowledge mining / cognitive search**
+- **Implement conversational AI / Azure OpenAI–based solutions**
+- **Apply Responsible AI and security best practices**
 
 Target Folders for Verification:
 
-- `01_ReferenceLibrary/`
-- `02_LeadArchitect-Learning/`
-- `docs/`
-- `.github/`
+- `docs/sessions/` - Study notes organized by exam domain
+- `src/` - Code samples and labs
+- `docs/` - Documentation
+- `.github/` - Configuration files
 
 Primary Objective:
-Perform a COMPREHENSIVE audit of the repository using ArchitectJourney-specific educational standards and quality criteria. Verify file contents, run structured checks, and produce actionable reports with suggestions and fixes.
+Perform a COMPREHENSIVE audit of the repository to ensure content aligns with AI-102 exam objectives. Verify file contents, run structured checks, and produce actionable reports with suggestions and fixes.
 
 ---
 
-## ArchitectJourney-Specific Verification Checks
+## AI-102-Specific Verification Checks
 
 ### A. **File Content Inspection**
 
@@ -28,12 +31,12 @@ Perform a COMPREHENSIVE audit of the repository using ArchitectJourney-specific 
 - Ensure markdown formatting compliance
 - Check for completeness and consistency with learning objectives
 
-### B. **Learning Path Alignment**
+### B. **Exam Domain Alignment**
 
-- Verify content aligns with correct Level (1-9) or Phase (01-09)
+- Verify content aligns with correct AI-102 exam domain
 - Validate prerequisites are appropriate and documented
 - Check learning progression is logical and sequential
-- Ensure cross-references between levels/phases are accurate
+- Ensure cross-references between exam domains are accurate
 
 ### C. **Content Accuracy & Quality**
 
@@ -42,16 +45,16 @@ Perform a COMPREHENSIVE audit of the repository using ArchitectJourney-specific 
 - Check alignment with architectural best practices and design patterns
 - Validate examples are current, relevant, and runnable
 
-### D. **ArchitectJourney Metadata Requirements**
+### D. **AI-102 Study Content Metadata Requirements**
 
 Check for presence of:
 
-- Learning Level / Phase designation (e.g., Level 3, Phase 02)
+- Exam Domain designation (e.g., Computer Vision, NLP, Knowledge Mining)
 - Prerequisites and dependencies
 - Learning Objectives (clear, measurable, specific)
-- Core Topics and Practical Projects
-- Related Topics and cross-references to other levels/phases
-- Estimated Learning Time (where applicable)
+- Core Topics and Practical Labs
+- Related Topics and cross-references to other exam domains
+- Estimated Study Time (where applicable)
 
 ### E. **Naming Convention Compliance**
 
@@ -84,17 +87,17 @@ Check for presence of:
 
 ### I. **Repository Structure Clarity**
 
-- Verify folder organization is intuitive
+- Verify folder organization follows AI-102 exam domain structure
 - Check navigability and discoverability
-- Validate table of contents accuracy
-- Ensure README files guide users through content
+- Validate content organization by exam objectives
+- Ensure README files guide users through study materials
 
 ### J. **Content Currency & Relevance**
 
-- Verify content reflects current technologies and practices
-- Check for deprecated patterns or outdated information
-- Validate relevance to stated learning objectives
-- Assess alignment with industry trends in architecture
+- Verify content reflects current Azure AI services and APIs
+- Check for deprecated Azure services or outdated information
+- Validate relevance to AI-102 exam objectives
+- Assess alignment with current Azure AI best practices
 
 ### K. **Practical Application**
 
@@ -110,12 +113,12 @@ Check for presence of:
 - Check engagement through practical relevance
 - Validate use of multiple learning modalities (text, code, diagrams, examples)
 
-### M. **Architecture Pattern Documentation**
+### M. **Azure AI Service Documentation**
 
-- Verify pattern intent and participants are clearly explained
+- Verify Azure AI service usage is clearly explained
 - Check when/when-not-to-use guidance is present
-- Validate trade-offs are discussed
-- Ensure implementation examples are provided in multiple languages where relevant
+- Validate best practices and trade-offs are discussed
+- Ensure implementation examples use current Azure SDKs and APIs
 
 ### N. **Diagram & Visual Quality**
 
@@ -133,31 +136,29 @@ Check for presence of:
 
 ---
 
-## ArchitectJourney Content Standards
+## AI-102 Content Standards
 
 ### Learning Structure
 
-- **9-Level Foundation**: Progressive from Level 1 (Foundation Mastery) to Level 9 (Leadership, Strategy & Innovation)
-- **9-Phase LeadArchitect**: Intensive program organized into 9 phases, each with 9 specialized clusters
-- **13 Reference Domains**: Comprehensive coverage of essential architectural knowledge areas
-- **Progressive Complexity**: Content builds from foundational concepts to advanced strategic decision-making
+- **6 Exam Domains**: Organized by AI-102 exam objectives
+- **Progressive Complexity**: Content builds from basic concepts to advanced implementations
+- **Hands-on Focus**: Emphasis on practical labs and code examples
 
 ### Content Organization
 
-- **By Level**: Content clearly indicates which level(s) it addresses
-- **By Domain**: Content properly categorized in 01_ReferenceLibrary under correct domain
-- **By Phase**: LeadArchitect content organized by phase and cluster
-- **By Learning Modality**: Mix of conceptual explanation, code examples, diagrams, and practical projects
+- **By Exam Domain**: Content clearly indicates which exam domain(s) it addresses
+- **By Service**: Content organized by Azure AI service (Computer Vision, Language, OpenAI, etc.)
+- **By Learning Modality**: Mix of conceptual explanation, code examples, diagrams, and hands-on labs
 
 ### Quality Requirements
 
-- **Accuracy**: Technically correct and architecturally sound
-- **Completeness**: Addresses stated learning objectives fully
+- **Accuracy**: Technically correct and aligned with Azure AI services
+- **Completeness**: Addresses stated AI-102 exam objectives fully
 - **Clarity**: Clear explanations with practical examples and runnable code
-- **Relevance**: Directly applicable to architecture practice and decision-making
-- **Currency**: Reflects current technologies and best practices
-- **Practicality**: Includes actionable guidance, patterns, and examples
-- **Pedagogy**: Uses appropriate learning techniques for target audience
+- **Relevance**: Directly applicable to AI-102 exam preparation
+- **Currency**: Reflects current Azure AI services and APIs
+- **Practicality**: Includes actionable guidance, labs, and code examples
+- **Pedagogy**: Uses appropriate learning techniques for certification preparation
 
 ### File Standards
 
@@ -177,10 +178,10 @@ Check for presence of:
 
 ```json
 {
-  "repo_name": "ArchitectJourney",
+  "repo_name": "AzAI-102EngineerAssociate",
   "total_files_checked": 0,
   "total_issues_found": 0,
-  "architect_journey_compliance_percentage": 0.0,
+  "ai102_exam_alignment_percentage": 0.0,
   "high_severity_count": 0,
   "medium_severity_count": 0,
   "low_severity_count": 0,
@@ -195,8 +196,8 @@ For each file:
 ```json
 {
   "file_path": "string",
-  "level_phase_designation": "string (e.g., Level 3 or Phase 02 - Cluster C)",
-  "domain_category": "string (e.g., Development Fundamentals, AI-ML, Leadership & Strategy)",
+  "exam_domain": "string (e.g., Computer Vision, NLP, Knowledge Mining, Conversational AI, Responsible AI)",
+  "azure_service": "string (e.g., Computer Vision, Language Service, OpenAI, Cognitive Search)",
   "checks_passed": ["list of check keys, e.g., A,B,C,F,G,I"],
   "learning_metadata_present": true/false,
   "content_quality_score": "0-100",
@@ -210,10 +211,10 @@ For each file:
       "description": "string",
       "suggested_fix": "string",
       "fix_type": "replace|delete|add|rename|format|link-fix|metadata-add",
-      "aj_violation_type": "string (e.g., missing-objectives, broken-link, outdated-pattern)"
+      "ai102_violation_type": "string (e.g., missing-objectives, broken-link, outdated-azure-service)"
     }
   ],
-  "overall_status": "aj_compliant|needs_updates|remove",
+  "overall_status": "ai102_aligned|needs_updates|remove",
   "quick_fix_patch": "string or null"
 }
 ```
@@ -222,9 +223,8 @@ For each file:
 
 ```json
 {
-  "level_coverage": { "Level1": 0, "Level2": 0, "..": 0, "Level9": 0 },
-  "phase_coverage": { "Phase01": 0, "Phase02": 0, "..": 0, "Phase09": 0 },
-  "domain_distribution": { "Development": 0, "AI-ML": 0, "..": 0 },
+  "exam_domain_coverage": { "Computer-Vision": 0, "NLP": 0, "Knowledge-Mining": 0, "Conversational-AI": 0, "Responsible-AI": 0, "Planning-Management": 0 },
+  "azure_service_coverage": { "Computer-Vision": 0, "Language-Service": 0, "OpenAI": 0, "Cognitive-Search": 0, "Speech": 0 },
   "progression_score": "0-100",
   "gap_analysis": ["identified learning gaps", "missing domain coverage"]
 }
@@ -319,15 +319,15 @@ Deliverables:
 
 Behavioral expectations:
 
-- **ArchitectJourney-First Approach**: Prioritize learning effectiveness and alignment with 9-level and 9-phase structures
-- **Educational Quality Focus**: Flag content that doesn't meet architectural excellence standards
-- **Learning Path Integrity**: Ensure content fits logically within levels and phases with proper prerequisites
-- **Practical Relevance**: Verify content provides actionable architectural guidance and decision-making frameworks
-- **Cross-Domain Integration**: Validate proper connections between learning tracks and domains
+- **AI-102-First Approach**: Prioritize learning effectiveness and alignment with AI-102 exam objectives
+- **Exam Preparation Focus**: Flag content that doesn't align with AI-102 exam domains
+- **Domain Integrity**: Ensure content fits logically within exam domains with proper prerequisites
+- **Practical Relevance**: Verify content provides actionable guidance for Azure AI service implementation
+- **Cross-Domain Integration**: Validate proper connections between exam domains and Azure services
 - **Metadata Compliance**: Prioritize missing learning objectives and prerequisites as high-severity
 - **Progressive Complexity**: Ensure content properly builds from foundational to advanced concepts
-- **Pattern Excellence**: Verify architectural patterns include intent, participants, when/when-not-to-use, and trade-offs
-- **Code Quality**: Validate examples follow best practices and are runnable
+- **Azure Service Excellence**: Verify Azure AI service usage includes best practices, when/when-not-to-use, and trade-offs
+- **Code Quality**: Validate examples use current Azure SDKs and are runnable
 - **Visual Communication**: Check that diagrams effectively support learning objectives
 
 ---
@@ -344,7 +344,7 @@ Behavioral expectations:
 
 ## Deliverables
 
-1. Complete JSON report following ArchitectJourney output requirements
+1. Complete JSON report following AI-102 output requirements
 2. Compliance scoring and educational quality assessment
 3. Learning path analysis and gap identification
 4. Cross-reference validation results
@@ -355,4 +355,4 @@ Behavioral expectations:
 
 ## Start Now
 
-Open every file in the repository tree, run ArchitectJourney-specific checks, and produce the structured JSON report following these requirements. Focus on learning effectiveness, content quality, architectural soundness, and alignment with the 9-level and 9-phase structure.
+Open every file in the repository tree, run AI-102-specific checks, and produce the structured JSON report following these requirements. Focus on learning effectiveness, content quality, Azure AI service accuracy, and alignment with AI-102 exam objectives.

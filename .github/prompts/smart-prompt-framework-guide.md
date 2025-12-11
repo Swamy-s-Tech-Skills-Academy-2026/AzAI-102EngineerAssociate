@@ -1,6 +1,6 @@
 # S.M.A.R.T. Prompt Framework for GitHub Copilot Coding Agents
 
-**ArchitectJourney Edition** - Framework for creating high-quality coding agent instructions aligned with architectural excellence standards and progressive learning levels.
+**AI-102 Edition** - Framework for creating high-quality coding agent instructions aligned with Azure AI service implementation and AI-102 exam objectives.
 
 ---
 
@@ -18,14 +18,14 @@ T - Task-Oriented Constraints (Technology stack, architectural patterns, forbidd
 
 ---
 
-## 🏛️ **ArchitectJourney Alignment**
+## 🏛️ **AI-102 Alignment**
 
 When creating prompts, consider:
 
-- **Learning Level Context**: Is this for Level 1-3 (foundational), Level 4-6 (enterprise), or Level 7-9 (strategic)?
-- **Domain Integration**: How does this task span across 13 reference domains?
-- **Architectural Patterns**: Which design/architecture patterns should be applied?
-- **Progressive Complexity**: Is the implementation scoped appropriately for the team's level?
+- **Exam Domain Context**: Which AI-102 exam domain does this task address (Computer Vision, NLP, Knowledge Mining, Conversational AI, Responsible AI)?
+- **Azure Service Integration**: How does this task integrate with Azure AI services?
+- **Best Practices**: Which Azure AI service best practices should be applied?
+- **Progressive Complexity**: Is the implementation scoped appropriately for exam preparation?
 
 ## 🏗️ **Advanced Problem Statement Template**
 
@@ -650,29 +650,43 @@ Before submitting ANY coding agent PR or task completion:
 
 ---
 
-## 🎓 **ArchitectJourney Learning Integration**
+## 🎓 **AI-102 Exam Domain Integration**
 
-Align your coding agent tasks with the learning progression:
+Align your coding agent tasks with AI-102 exam domains:
 
-### **For Levels 1-3 (Foundation & Patterns):**
+### **For Computer Vision Solutions:**
 
-- Focus on design pattern application
-- SOLID principles demonstration
-- Clean code and testing practices
-- Language-specific idioms and best practices
+- Azure Computer Vision API integration
+- Image analysis and processing
+- Custom vision model training
+- Face detection and recognition
 
-### **For Levels 4-6 (Enterprise & Cloud):**
+### **For Natural Language Processing:**
 
-- Microservices architecture implementation
-- Cloud platform integration (Azure, AWS, GCP)
-- DevOps and CI/CD pipeline design
-- System scalability and resilience patterns
+- Azure Language Service integration
+- Text analytics and sentiment analysis
+- Language understanding (LUIS)
+- Translator service implementation
 
-### **For Levels 7-9 (Strategy & AI/ML):**
+### **For Knowledge Mining / Cognitive Search:**
 
-- AI/ML system architecture
-- Enterprise security and governance
-- Strategic technology decisions
-- Leadership and organizational transformation
+- Azure Cognitive Search setup
+- Index creation and management
+- Skillset configuration
+- Search query optimization
 
-This framework ensures consistent, high-quality results from GitHub Copilot coding agents while preventing common issues and maintaining enterprise-grade architectural standards aligned with ArchitectJourney learning levels.
+### **For Conversational AI / Azure OpenAI:**
+
+- Azure OpenAI service integration
+- Prompt engineering best practices
+- Chat completion and embeddings
+- Responsible AI implementation
+
+### **For Responsible AI & Security:**
+
+- Content filtering and safety
+- Data privacy and compliance
+- Cost optimization
+- Security best practices
+
+This framework ensures consistent, high-quality results from GitHub Copilot coding agents while preventing common issues and maintaining Azure AI service best practices aligned with AI-102 exam objectives.

@@ -146,7 +146,8 @@ related_topics:
     - 01_Next-Topic-Part2.md
     - 02_Advanced-Topic.md
   cross_refs:
-    - ../../02_AI-and-ML/
+    - ../computer-vision/
+    - ../natural-language/
 ---
 ```
 
@@ -167,7 +168,7 @@ related_topics:
 ```yaml
 # WRONG - File doesn't exist
 prerequisites:
-  - 01_OOP-Introduction-Part1.md
+  - 01_Computer-Vision-Basics-Part1.md
 ```
 
 **Root Cause:**
@@ -181,7 +182,7 @@ prerequisites:
 ```yaml
 # CORRECT - References actual file (using simplified naming)
 prerequisites:
-  - 01_OOP-Introduction-Part1-A.md
+  - 01_Computer-Vision-Basics-Part1-A.md
 ```
 
 #### ❌ **ERROR: Non-Existent Part Files**
@@ -191,7 +192,7 @@ prerequisites:
 ```yaml
 # WRONG - Part2.md doesn't exist, only Part2-A.md exists
 enables:
-  - 03_Encapsulation-Part2.md
+  - 03_Agentic-Solutions-Part2.md
 ```
 
 **Root Cause:**
@@ -205,7 +206,7 @@ enables:
 ```yaml
 # CORRECT - References actual file (using simplified naming)
 enables:
-  - 03_Encapsulation-Part2-A.md
+  - 03_Agentic-Solutions-Part2-A.md
 ```
 
 #### ❌ **ERROR: Generic Part References**
@@ -215,7 +216,7 @@ enables:
 ```yaml
 # WRONG - Which part file?
 prerequisites:
-  - 02_Classes-and-Objects-Part1.md
+  - 02_Generative-AI-Part1.md
 ```
 
 **Root Cause:**
@@ -228,7 +229,7 @@ prerequisites:
 ```yaml
 # CORRECT - Specific part file (using simplified naming)
 prerequisites:
-  - 02_Classes-and-Objects-Part1-A.md
+  - 02_Generative-AI-Part1-A.md
   # OR if referencing the concept generally, use first part (Part1-A)
 ```
 
@@ -259,12 +260,12 @@ prerequisites:
 ```yaml
 related_topics:
   prerequisites:
-    - 01_OOP-Introduction-Part1-A.md  # First part
+    - 01_Computer-Vision-Basics-Part1-A.md  # First part
   builds_upon:
-    - 01_OOP-Introduction-Part1-A.md  # First part
+    - 01_Computer-Vision-Basics-Part1-A.md  # First part
   enables:
-    - 01_OOP-Introduction-Part1-B.md  # Next part
-    - 02_Classes-and-Objects-Part1-A.md  # Next topic, first part
+    - 01_Computer-Vision-Basics-Part1-B.md  # Next part
+    - 02_Advanced-Computer-Vision-Part1-A.md  # Next topic, first part
 ```
 
 ### Validation Checklist
@@ -314,7 +315,7 @@ Before committing any file with references:
 
 **When renaming files:**
 
-1. Find all references: `grep -r "old-filename.md" Reference/`
+1. Find all references: `grep -r "old-filename.md" docs/sessions/ src/`
 2. Update all references
 3. Run validation script
 4. Test navigation
