@@ -120,18 +120,19 @@ related_topics:
 
 **AI-102 Exam Domain Organization** (organized by exam objectives):
 
-1. **01**: OOP Introduction - Understanding the paradigm
-2. **02**: Classes and Objects - Core building blocks
-3. **03**: Encapsulation and Abstraction - Data protection
-4. **04**: Inheritance and Polymorphism - Code reuse (fundamental OOP pillar)
-5. **05**: Composition and Interfaces - Advanced patterns (compares with inheritance)
-6. **06**: UML Class Relationships - Visualizing relationships
+1. **01**: Plan and manage an Azure AI solution - Foundation and planning
+2. **02**: Implement generative AI solutions - Azure OpenAI integration
+3. **03**: Implement an agentic solution - AI agents and workflows
+4. **04**: Implement computer vision solutions - Image and video processing
+5. **05**: Implement natural language processing solutions - Text analytics and language understanding
+6. **06**: Implement knowledge mining and information extraction solutions - Cognitive Search and data extraction
 
 **Why This Order Matters**:
 
-- Inheritance (04) must come BEFORE Composition (05) because Composition discusses "favor composition over inheritance" - learners need to understand inheritance first
-- Inheritance is a fundamental OOP pillar; Composition is an alternative/comparison
-- UML (06) comes last as it visualizes all previous concepts
+- Planning and management (01) should come first as it provides the foundation
+- Generative AI (02) and Agentic solutions (03) build on planning concepts
+- Computer Vision (04) and NLP (05) are specialized domains that can be studied independently
+- Knowledge Mining (06) often integrates with other domains, so it comes last
 
 **When Creating New Content**:
 
@@ -160,10 +161,10 @@ related_topics:
 4. ✅ **Maintain order** - Letters reflect the original Part number sequence
 
 **Examples**:
-- ✅ `01_OOP-Introduction-Part1-A.md` (was `Part1-Part1`)
-- ✅ `01_OOP-Introduction-Part1-B.md` (was `Part1-Part2`)
-- ✅ `02_Classes-and-Objects-Part2-A.md` (was `Part2-Part1`)
-- ✅ `03_Encapsulation-Part1-B-A.md` (was `Part1-Part2-Part1`)
+- ✅ `01_Plan-Manage-AI-Solution-Part1-A.md` (was `Part1-Part1`)
+- ✅ `01_Plan-Manage-AI-Solution-Part1-B.md` (was `Part1-Part2`)
+- ✅ `02_Generative-AI-Part2-A.md` (was `Part2-Part1`)
+- ✅ `04_Computer-Vision-Part1-B-A.md` (was `Part1-Part2-Part1`)
 
 **Benefits**:
 - Cleaner, more readable file names
@@ -240,7 +241,7 @@ class ProductFactory:
         return ProductB()
 ```
 
-> **Full Implementation**: See complete Factory Pattern implementation in [Python repository](https://github.com/SwamysArchitectJourney-2026/Python/tree/main/design-patterns/factory)
+> **Full Implementation**: See complete Azure AI service implementation examples in the `src/` directory
 ```
 
 ### Source Materials Staging Area
@@ -385,9 +386,9 @@ Before committing:
 
 ---
 
-## 🎯 Interview Preparation Content Guidelines
+## 🎯 Study Content Guidelines
 
-**CRITICAL**: All interview preparation content in `03_Interview-Prep/` must be **generic and company-agnostic**.
+**CRITICAL**: All study content should be organized by AI-102 exam domains and focus on practical Azure AI service implementation.
 
 ### Generic Content Policy
 
@@ -406,11 +407,11 @@ Before committing:
 - ❌ "For Amazon, AWS roles" → ✅ "For high-pressure TPM roles, customer-obsessed organizations"
 - ❌ "For Google, Meta, Stripe, Uber" → ✅ "For deep-tech companies, innovation-focused organizations"
 
-**When Creating Interview Prep Content**:
-1. Focus on universal principles and practices
-2. Use generic organizational types (product companies, startups, enterprise organizations)
-3. Reference frameworks by their concepts, not company names
-4. Make content applicable to any similar organization
+**When Creating Study Content**:
+1. Focus on AI-102 exam objectives and Azure AI services
+2. Include practical examples and hands-on labs
+3. Reference official Microsoft documentation
+4. Make content applicable to exam preparation and real-world scenarios
 
 ---
 
