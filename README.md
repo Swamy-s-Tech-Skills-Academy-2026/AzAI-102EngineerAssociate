@@ -27,7 +27,7 @@ For each AI-102 objective, create a short folder/note and at least one practical
 - Implement natural language processing solutions
 - Implement knowledge mining and information extraction solutions
 
-> **Note**: Exam domains are based on the [official Microsoft AI-102 certification page](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification). The exam was last updated on 04/30/2025.
+> **Note**: Swamy is learning/preparing for the AI-102 exam. Please refer to the [official Microsoft AI-102 certification page](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification) for accurate and up-to-date information.
 
 1. **Capture labs and experiments**
 
@@ -49,13 +49,13 @@ git clone https://github.com/Swamy-s-Tech-Skills-Academy-2026/AzAI-102EngineerAs
 cd AzAI-102EngineerAssociate
 ```
 
-2. Open in VS Code:
+1. Open in VS Code:
 
 ```pwsh
 code .
 ```
 
-3. Start by adding a first lab under `docs/` and a small script or notebook under `src/` that exercises one Azure AI service you want to learn.
+1. Start by adding a first lab under `docs/` and a small script or notebook under `src/` that exercises one Azure AI service you want to learn.
 
 ## Conventions
 
