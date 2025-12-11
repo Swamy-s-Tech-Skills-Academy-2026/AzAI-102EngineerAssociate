@@ -19,12 +19,14 @@ As you build out this repo, keep exam objectives in mind and group content under
 
 2. **Organize by exam domains**  
  For each AI-102 objective, create a short folder/note and at least one practical example:
- - Plan and manage Azure AI solutions.
- - Implement computer vision solutions.
- - Implement natural language processing solutions.
- - Implement knowledge mining / cognitive search.
- - Implement conversational AI / Azure OpenAI–based solutions.
- - Apply Responsible AI and security best practices.
+ - Plan and manage an Azure AI solution
+ - Implement generative AI solutions
+ - Implement an agentic solution
+ - Implement computer vision solutions
+ - Implement natural language processing solutions
+ - Implement knowledge mining and information extraction solutions
+
+> **Note**: Exam domains are based on the [official Microsoft AI-102 certification page](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification). The exam was last updated on 04/30/2025.
 
 3. **Capture labs and experiments**  
  - Use `docs/` to store **step-by-step labs**, screenshots, and architecture diagrams.  
