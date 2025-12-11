@@ -167,7 +167,7 @@ related_topics:
 ```yaml
 # WRONG - File doesn't exist
 prerequisites:
-  - 01_OOP-Introduction-Part1.md
+  - 01_Computer-Vision-Basics-Part1.md
 ```
 
 **Root Cause:**
@@ -181,7 +181,7 @@ prerequisites:
 ```yaml
 # CORRECT - References actual file (using simplified naming)
 prerequisites:
-  - 01_OOP-Introduction-Part1-A.md
+  - 01_Computer-Vision-Basics-Part1-A.md
 ```
 
 #### ❌ **ERROR: Non-Existent Part Files**
@@ -259,12 +259,12 @@ prerequisites:
 ```yaml
 related_topics:
   prerequisites:
-    - 01_OOP-Introduction-Part1-A.md  # First part
+    - 01_Computer-Vision-Basics-Part1-A.md  # First part
   builds_upon:
-    - 01_OOP-Introduction-Part1-A.md  # First part
+    - 01_Computer-Vision-Basics-Part1-A.md  # First part
   enables:
-    - 01_OOP-Introduction-Part1-B.md  # Next part
-    - 02_Classes-and-Objects-Part1-A.md  # Next topic, first part
+    - 01_Computer-Vision-Basics-Part1-B.md  # Next part
+    - 02_Advanced-Computer-Vision-Part1-A.md  # Next topic, first part
 ```
 
 ### Validation Checklist

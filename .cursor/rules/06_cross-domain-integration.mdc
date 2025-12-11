@@ -41,5 +41,5 @@ When creating content, always:
 1. **Identify Prerequisites**: What must learners know first?
 2. **Link to Foundations**: What does this build upon?
 3. **Show Applications**: What does this enable?
-4. **Cross-Reference**: Connect to related domains (Development, AI/ML, Data Science, DevOps)
-5. **Stage Mapping**: Which learning stages use this content?
+4. **Cross-Reference**: Connect to related AI-102 exam domains (Computer Vision, NLP, Knowledge Mining, Generative AI, Agentic Solutions, Responsible AI)
+5. **Domain Mapping**: Which AI-102 exam domains does this content address?

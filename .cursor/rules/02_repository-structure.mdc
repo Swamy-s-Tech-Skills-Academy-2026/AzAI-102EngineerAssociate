@@ -17,21 +17,21 @@
 **Target Audience**: Developers and engineers preparing for the Microsoft AI-102: Azure AI Engineer Associate certification
 
 **Learning Framework**: Organized by AI-102 exam domains:
-- Plan and manage Azure AI solutions
+- Plan and manage an Azure AI solution
+- Implement generative AI solutions
+- Implement an agentic solution
 - Implement computer vision solutions
 - Implement natural language processing solutions
-- Implement knowledge mining / cognitive search
-- Implement conversational AI / Azure OpenAI–based solutions
-- Apply Responsible AI and security best practices
+- Implement knowledge mining and information extraction solutions
 
 ### 🚨 CRITICAL: Repository Purpose & Code Separation
 
 **This repository (`AzAI-102EngineerAssociate`) is for AI-102 certification preparation:**
 
-- ✅ **Educational Content Only**: Markdown documentation, learning materials, concepts, and illustrative code examples
-- ✅ **Minimal Code Examples**: Code snippets in educational content should be minimal, illustrative, and focused on teaching concepts
-- ❌ **NO Full Implementations**: Complete, runnable code projects are NOT stored in this repository
-- ❌ **NO Code Repositories**: This repository does not contain language-specific code implementations
+- ✅ **Study Materials**: Markdown documentation, study notes, and learning materials
+- ✅ **Practical Code Examples**: Code samples and labs for Azure AI services
+- ✅ **Hands-on Labs**: Runnable examples that demonstrate Azure AI service usage
+- ✅ **Small, Focused Examples**: Code examples focused on single concepts and exam objectives
 
 **Code Examples in This Repository:**
 
@@ -43,15 +43,15 @@ This repository includes practical code examples and labs for Azure AI services:
 - Azure CLI and PowerShell scripts for resource provisioning
 - Bicep/ARM templates for infrastructure as code
 
-**Code Examples in Educational Content:**
+**Code Examples Guidelines:**
 
-When including code examples in educational content:
+When including code examples in study materials:
 
-- ✅ Use minimal, illustrative snippets to demonstrate concepts
-- ✅ Focus on teaching, not complete implementations
-- ✅ Reference full implementations in separate code repositories
-- ❌ Do not include complete, production-ready code
-- ❌ Do not create runnable projects in this repository
+- ✅ Include complete, runnable examples that can be tested with Azure AI services
+- ✅ Focus on Azure AI service usage and exam-relevant concepts
+- ✅ Add setup instructions, prerequisites, and explanations
+- ✅ Keep examples small and focused on single concepts
+- ✅ Align with AI-102 exam objectives
 
 ---
 
@@ -150,12 +150,12 @@ AzAI-102EngineerAssociate/
 - ✅ Add content progressively as you study each domain
 
 **AI-102 Exam Domains**:
-- Plan and manage Azure AI solutions
+- Plan and manage an Azure AI solution
+- Implement generative AI solutions
+- Implement an agentic solution
 - Implement computer vision solutions
 - Implement natural language processing solutions
-- Implement knowledge mining / cognitive search
-- Implement conversational AI / Azure OpenAI–based solutions
-- Apply Responsible AI and security best practices
+- Implement knowledge mining and information extraction solutions
 
 ## 📞 Support & Escalation
 

@@ -7,7 +7,7 @@
 
 ## 🎯 Primary Directives
 
-### 1. ArchitectJourney Educational Content Rules (MANDATORY)
+### 1. AI-102 Educational Content Rules (MANDATORY)
 
 **All content creation must follow these rules without exception.**
 
@@ -53,7 +53,7 @@ See: `01_educational-content-rules.mdc` for complete details.
 
 1. ✅ **Check for `00_` prefix**: **NEVER ALLOWED** - Use `01_` instead
 2. ✅ **Verify scope**: Rule applies to **ALL files** including:
-   - Educational content (`01_Reference/`, `02_Learning/`)
+   - Study content (`docs/sessions/`, `src/`)
    - Documentation files (`docs/`)
    - Any numbered files anywhere in repository
 3. ✅ **Quick validation**: Run `Get-ChildItem -Recurse -Filter "*00_*"` to find violations
