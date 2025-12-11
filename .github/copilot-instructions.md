@@ -222,10 +222,10 @@ AzAI-102EngineerAssociate/
 
 **This repository (`AzAI-102EngineerAssociate`) is for AI-102 certification preparation:**
 
-- ✅ **Educational Content Only**: Markdown documentation, learning materials, concepts, and illustrative code examples
-- ✅ **Minimal Code Examples**: Code snippets in educational content should be minimal, illustrative, and focused on teaching concepts
-- ❌ **NO Full Implementations**: Complete, runnable code projects are NOT stored in this repository
-- ❌ **NO Code Repositories**: This repository does not contain language-specific code implementations
+- ✅ **Study Materials**: Markdown documentation, study notes, and learning materials
+- ✅ **Practical Code Examples**: Code samples and labs for Azure AI services
+- ✅ **Hands-on Labs**: Runnable examples that demonstrate Azure AI service usage
+- ✅ **Small, Focused Examples**: Code examples focused on single concepts and exam objectives
 
 **Code Examples in This Repository:**
 

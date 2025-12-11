@@ -416,3 +416,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Source materials staging area (git-ignored per repository rules)
+source-materials/
