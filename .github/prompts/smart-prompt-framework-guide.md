@@ -22,7 +22,7 @@ T - Task-Oriented Constraints (Technology stack, architectural patterns, forbidd
 
 When creating prompts, consider:
 
-- **Exam Domain Context**: Which AI-102 exam domain does this task address (Computer Vision, NLP, Knowledge Mining, Conversational AI, Responsible AI)?
+- **Exam Domain Context**: Which AI-102 exam domain does this task address (Plan and manage Azure AI solution, Generative AI, Agentic solutions, Computer Vision, NLP, Knowledge Mining)?
 - **Azure Service Integration**: How does this task integrate with Azure AI services?
 - **Best Practices**: Which Azure AI service best practices should be applied?
 - **Progressive Complexity**: Is the implementation scoped appropriately for exam preparation?
@@ -675,11 +675,18 @@ Align your coding agent tasks with AI-102 exam domains:
 - Skillset configuration
 - Search query optimization
 
-### **For Conversational AI / Azure OpenAI:**
+### **For Generative AI Solutions:**
 
 - Azure OpenAI service integration
 - Prompt engineering best practices
 - Chat completion and embeddings
+- Model deployment and management
+
+### **For Agentic Solutions:**
+
+- AI agent workflows and orchestration
+- Function calling and tool integration
+- Agent memory and state management
 - Responsible AI implementation
 
 ### **For Responsible AI & Security:**
